@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/kylehazell/static/css/main.469af8d3.css",
+    "main.js": "/kylehazell/static/js/main.75f03566.js",
+    "static/js/787.feae2aa9.chunk.js": "/kylehazell/static/js/787.feae2aa9.chunk.js",
+    "static/media/superBall.png": "/kylehazell/static/media/superBall.bd8557258eb9017884f2.png",
+    "static/media/apple.png": "/kylehazell/static/media/apple.9859a61d89f45fb8cd52.png",
+    "static/media/antPath.png": "/kylehazell/static/media/antPath.98b92479e85b63845fc7.png",
+    "static/media/login.png": "/kylehazell/static/media/login.ef6eb274b7d18fc89942.png",
+    "static/media/punkSmoke.jpg": "/kylehazell/static/media/punkSmoke.a8d030412bfa7bdaf12a.jpg",
+    "index.html": "/kylehazell/index.html",
+    "main.469af8d3.css.map": "/kylehazell/static/css/main.469af8d3.css.map",
+    "main.75f03566.js.map": "/kylehazell/static/js/main.75f03566.js.map",
+    "787.feae2aa9.chunk.js.map": "/kylehazell/static/js/787.feae2aa9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.469af8d3.css",
+    "static/js/main.75f03566.js"
+  ]
+}
