@@ -8,14 +8,22 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia"> 
+      <a href="https://www.linkedin.com/in/kyle-h-91a886123/">
         <LinkedInIcon/>
+        </a>
+        <a href="https://twitter.com/">
         <TwitterIcon/>
+        </a>
+        <a href="https://www.instagram.com/">
         <InstagramIcon/>
+        </a>
+        <a href="https://www.facebook.com/">
         <FacebookIcon/>
+        </a>
       </div>
    
 
-    <p> &copy; 2022 google.com</p>
+    <p> &copy; 2022 welcome to my website</p>
     
     </div>
   )

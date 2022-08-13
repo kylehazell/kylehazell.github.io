@@ -13,10 +13,14 @@ function Home() {
           <p> 
             A software developer with a passion for learning and creating.
           </p>
-          <LinkedInIcon/>
+          <a href="https://www.linkedin.com/in/kyle-h-91a886123/">
+        <LinkedInIcon/>
+        </a>
+        
           <EmailIcon/>
+          <a href="https://github.com/kylehazell/">
           <GithubIcon/>
-
+          </a>
         </div> 
      </div>
      <div className="skills">
