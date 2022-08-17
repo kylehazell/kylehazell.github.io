@@ -10,12 +10,14 @@ export const ProjectList=[
         name:"Apple Farmer",
         image:appleGame,
         skills: "Unity,C#",
+        url: "https://kylehazell.itch.io/apple-farmer",
 
     },
     {
         name:"Jump Smoke",
         image:Smoke,
         skills: "Unity,C#",
+        url: "https://kylehazell.itch.io/punk-smoke"
     },
     {
         name:"Iventory Website/Senior Project",
@@ -31,6 +33,7 @@ export const ProjectList=[
         name:"Rolling Thunder",
         image:Ball,
         skills: "Unity,C#",
+        url: "https://kylehazell.itch.io/prototype-4"
     }
 
 

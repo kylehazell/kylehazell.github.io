@@ -3,6 +3,8 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
+import {Link} from "react-router-dom";
+
 
 function Home() {
   return (
@@ -14,12 +16,11 @@ function Home() {
             A software developer with a passion for learning and creating.
           </p>
           <a href="https://www.linkedin.com/in/kyle-h-91a886123/">
-        <LinkedInIcon/>
-        </a>
-        
-          <EmailIcon/>
+            <LinkedInIcon/>
+          </a>
+          <Link to="/email"><EmailIcon/></Link> 
           <a href="https://github.com/kylehazell/">
-          <GithubIcon/>
+            <GithubIcon/>
           </a>
         </div> 
      </div>
@@ -30,7 +31,7 @@ function Home() {
             <h2>Front-End</h2>
             <span>
               HTML,CSS,React Native, NPM, Yarn
-               </span>
+            </span>
         </li>
         <li className="item">
             <h2>Back-End</h2>
