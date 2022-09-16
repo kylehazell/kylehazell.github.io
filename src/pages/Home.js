@@ -4,7 +4,15 @@ import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
 import {Link} from "react-router-dom";
+//import {Mailto} from "../helpers/EmailMe";
 
+const Mailto = ({ email, subject = '', body = '', children }) => {
+  let params = subject || body ? '?' : '';
+  if (subject) params += `subject=${encodeURIComponent(subject)}`;
+  if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
+
+  return <a href={`mailto:${email}${params}`}>{children}</a>;
+};
 
 function Home() {
   return (
@@ -13,12 +21,15 @@ function Home() {
         <h2> Hi, my name is Kyle</h2>
         <div className="prompt">
           <p> 
-            A software developer with a passion for learning and creating.
+            I am a software developer with a passion for learning and creating.
           </p>
           <a href="https://www.linkedin.com/in/kyle-h-91a886123/">
             <LinkedInIcon/>
           </a>
-          <Link to="/email"><EmailIcon/></Link> 
+          <Mailto email="khazell415@gmail.com" subject="Hello and Welcome" body="Test!">
+              <EmailIcon/>
+          </Mailto>
+         
           <a href="https://github.com/kylehazell/">
             <GithubIcon/>
           </a>
