@@ -26,7 +26,7 @@ function Home() {
           <a href="https://www.linkedin.com/in/kyle-h-91a886123/">
             <LinkedInIcon/>
           </a>
-          <Mailto email="khazell415@gmail.com" subject="Hello and Welcome" body="Test!">
+          <Mailto email="khazell415@gmail.com" subject="I would like to connect" body="Hello Kyle">
               <EmailIcon/>
           </Mailto>
          
