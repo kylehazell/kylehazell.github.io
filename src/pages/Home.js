@@ -3,7 +3,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
-import {Link} from "react-router-dom";
+//import {Link} from "react-router-dom";
 //import {Mailto} from "../helpers/EmailMe";
 
 const Mailto = ({ email, subject = '', body = '', children }) => {
