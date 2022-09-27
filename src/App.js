@@ -10,6 +10,7 @@ import ProjectDisplay from './pages/ProjectDisplay';
 import Email from './pages/EmailPage';
 function App() {
   return (
+    
     <div className="App">
       <Router>
         <Navbar/>
