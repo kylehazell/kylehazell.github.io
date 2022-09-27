@@ -3,6 +3,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
+import videoB from '../assets/coding_background.mp4';
 //import {Link} from "react-router-dom";
 //import {Mailto} from "../helpers/EmailMe";
 
@@ -16,7 +17,9 @@ const Mailto = ({ email, subject = '', body = '', children }) => {
 
 function Home() {
   return (
+  
   <div className="Home">
+      
       <div className="about">
         <h2> Hi, my name is Kyle</h2>
         <div className="prompt">
@@ -35,24 +38,26 @@ function Home() {
           </a>
         </div> 
      </div>
-     <div className="skills">
-      <h1>Skills</h1>
-      <ol className="list">
-        <li className="item">
-            <h2>Front-End</h2>
-            <span>
-              HTML,CSS,React Native, NPM, Yarn
-            </span>
-        </li>
-        <li className="item">
-            <h2>Back-End</h2>
-            <span> NodeJS, ExpressJS, MySQL, MS SQL </span>
-        </li>
-        <li className="item">
-            <h2>Languages</h2>
-            <span> JavaScript, Java, Python, C, C#</span>
-        </li>
-     </ol>
+      <div className='overlay'></div>
+       
+        <div className="skills"> <video src={videoB} autoPlay loop muted/>
+          <h1>Skills</h1>
+          <ol className="list">
+            <li className="item">
+                <h2>Front-End</h2>
+                <span>
+                  HTML,CSS,React Native, NPM, Yarn
+                </span>
+            </li>
+            <li className="item">
+                <h2>Back-End</h2>
+                <span> NodeJS, ExpressJS, MySQL, MS SQL </span>
+            </li>
+            <li className="item">
+                <h2>Languages</h2>
+                <span> JavaScript, Java, Python, C, C#</span>
+            </li>
+        </ol>
     </div>
  </div> 
  )

@@ -27,7 +27,7 @@ export const ProjectList=[
     {
         name:"The Ant Path ",
         image:antGame,
-        skills: "Java,JRE,CodeNameOne, "
+        skills: "Java, CodeNameOne "
     },
     {
         name:"Rolling Thunder",

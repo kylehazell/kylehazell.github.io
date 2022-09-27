@@ -7,10 +7,10 @@
   
   .about {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(80vh - 100px);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: normal;
     align-items: center;
     text-align: center;
     background-color: #21325e;
@@ -37,6 +37,8 @@
   .skills {
     font-size: 35px;
     width: 100%;
+    height:100%;
+    top: 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -54,6 +56,20 @@
   
   .list span {
     font-size: 20px;
+  }
+  video{
+    width: 100%;
+    height:100%;
+    object-fit:contain;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*height: 100%;*/
+    background-color: rgba(4, 6, 0, 0.315);
+    /* background-color: #000000cc; */
   }
   
   @media only screen and (max-width: 600px) {

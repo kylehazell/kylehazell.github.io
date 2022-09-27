@@ -23,7 +23,7 @@ function Footer() {
       </div>
    
 
-    <p> &copy; 2022 welcome to my website</p>
+    <p> &copy; 2022  Kyle Hazell</p>
     
     </div>
   )
