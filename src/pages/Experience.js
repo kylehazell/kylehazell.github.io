@@ -12,7 +12,7 @@ function Experience() {
       <VerticalTimeline lineColor="#3e497a">
             <VerticalTimelineElement 
                 className="vertical-timeline-element--education" 
-                date="Fall 2013 - Spring 2017"
+                date="Aug 2013 - May 2017"
                 iconStyle={{background:"#3e497a",color:"#fff" }}
                 icon={<SchoolIcon/>}
             >
@@ -23,7 +23,7 @@ function Experience() {
             </VerticalTimelineElement>
             <VerticalTimelineElement 
                 className="vertical-timeline-element--education" 
-                date=" Fall 2017 - Spring 2022"
+                date=" Aug 2017 - May 2022"
                 iconStyle={{background:"#3e497a",color:"#fff" }}
                 icon={<SchoolIcon/>}
             >
@@ -37,7 +37,7 @@ function Experience() {
             </VerticalTimelineElement>
             <VerticalTimelineElement 
               className="vertical-timeline-element--work" 
-              date="Summer 2017"
+              date="July 2017 - Aug 2017"
               iconStyle={{background: "#e9d35b",color:"#fff" }}
               icon={<WorkIcon/>}
             >
@@ -54,7 +54,7 @@ function Experience() {
             </VerticalTimelineElement>
             <VerticalTimelineElement 
               className="vertical-timeline-element--work" 
-              date="Summer 2018"
+              date="Jun 2018 - Aug 2018"
               iconStyle={{background: "#e9d35b",color:"#fff" }}
               icon={<WorkIcon/>}
             >
@@ -72,7 +72,7 @@ function Experience() {
             </VerticalTimelineElement>
             <VerticalTimelineElement 
               className="vertical-timeline-element--work" 
-              date="Fall 2019 - Fall 2021"
+              date=" Oct 2019 - Aug 2021"
               iconStyle={{background: "#e9d35b",color:"#fff" }}
               icon={<WorkIcon/>}
             >
@@ -90,20 +90,48 @@ function Experience() {
             </VerticalTimelineElement>
             <VerticalTimelineElement 
               className="vertical-timeline-element--work" 
-              date="Summer 2019 - Present"
+              date=" Jul 2023 - Jan 2024"
               iconStyle={{background: "#e9d35b",color:"#fff" }}
               icon={<WorkIcon/>}
             >
               <h3 className= "vertical-timeline-element-title"
-              > Intern - Department of Public Works
+              > Data Engingneer - Tesla
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Fremont, CA
+              </h4>
+              <p>
+              I optimized VBA code for Tesla vehicles, created detailed reports 
+              on homologation testing progress, processed over 100 datasets efficiently, 
+              collaborated on a Python application for automating data processing, 
+              co-led the development of an internal inventory tracking application 
+              using the MERN stack with user authentication and permission roles. 
+              Additionally, I designed efficiency-enhancing tools like SharePoint 
+              and Confluence pages.
+
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement 
+              className="vertical-timeline-element--work" 
+              date="Jun 2019 - Present"
+              iconStyle={{background: "#e9d35b",color:"#fff" }}
+              icon={<WorkIcon/>}
+            >
+              <h3 className= "vertical-timeline-element-title"
+              > Design Trainee - Department of Public Works
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
                 San Francisco, CA
               </h4>
               <p>
-                Organized and scanned important physical documents into digital,
-                Worked on web applications to help optimize company efficiency, 
-                Found and fixed errors in the cities’ GIS system with engineers
+                
+                I develop internal websites tailored for city engineers, providing 
+                comprehensive technical documentation and training. Additionally, I 
+                assist across departments in various IT tasks, including software and 
+                hardware installation, while leveraging JavaScript, HTML, SQL, and 
+                Google API to build functional web pages. Lastly, I effectively manage 
+                a vast repository of over 1000 critical digital and physical documents 
+                within the internal city file system.
 
               </p>
             </VerticalTimelineElement>

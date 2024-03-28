@@ -5,7 +5,7 @@ import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
 //import videoCode from '../assets/coding_background.mp4'; this how you connect the import <video src={videoCode} autoPlay loop muted/>
 //import {Link} from "react-router-dom";
-//import {Mailto} from "../helpers/EmailMe";
+//import {Mailto} from "../helpers/EmailMe"
 
 const Mailto = ({ email, subject = '', body = '', children }) => {
   let params = subject || body ? '?' : '';
