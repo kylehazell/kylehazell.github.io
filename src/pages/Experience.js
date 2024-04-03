@@ -22,20 +22,6 @@ function Experience() {
               <p>High School Diploma</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement 
-                className="vertical-timeline-element--education" 
-                date=" Aug 2017 - May 2022"
-                iconStyle={{background:"#3e497a",color:"#fff" }}
-                icon={<SchoolIcon/>}
-            >
-                <h3 className= "vertical-timeline-element-title"
-                > California State University, Sacramento
-                </h3>
-                <h4 className="vertical-timeline-element-subtitle">
-                  Bachelor's Degree
-                </h4>
-                <p>Computer Science</p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement 
               className="vertical-timeline-element--work" 
               date="July 2017 - Aug 2017"
               iconStyle={{background: "#e9d35b",color:"#fff" }}
@@ -49,9 +35,10 @@ function Experience() {
               </h4>
               <p>
                 Facilitated programming fundamentals directly from Google engineers, 
-                Designed and developed professional applications
+                Designed and developed professional applications.
               </p>
             </VerticalTimelineElement>
+            
             <VerticalTimelineElement 
               className="vertical-timeline-element--work" 
               date="Jun 2018 - Aug 2018"
@@ -67,7 +54,7 @@ function Experience() {
               <p>
                   Produced  research on Venture Capitalism, 
                   Assisted with code on small projects using Python, 
-                  Facilitated program profiles for confidential companies
+                  Facilitated program profiles for confidential companies.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement 
@@ -83,9 +70,46 @@ function Experience() {
                 Sacramento, CA
               </h4>
               <p>
-                Provided help and support for minority men attending college. 
-                For example I provided mentorship, schedule brotherhood events, 
-                organized weekly 1 on 1 meetings with up to 10 students a week.
+              Offered mentorship and assistance to over 30 minority male students in 
+              their pursuit of higher education. Coordinated brotherhood events, 
+              conducted weekly one-on-one meetings, and maintained student contact data
+              using Salesforce for efficient access to critical information.
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement 
+                className="vertical-timeline-element--education" 
+                date=" Aug 2017 - May 2022"
+                iconStyle={{background:"#3e497a",color:"#fff" }}
+                icon={<SchoolIcon/>}
+            >
+                <h3 className= "vertical-timeline-element-title"
+                > California State University, Sacramento
+                </h3>
+                <h4 className="vertical-timeline-element-subtitle">
+                  Bachelor's Degree
+                </h4>
+                <p>Computer Science and Minor:Mathematics</p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement 
+              className="vertical-timeline-element--education" 
+              date=" Jan 2023 - Jun 2023"
+              iconStyle={{background:"#3e497a",color:"#fff" }}
+              icon={<SchoolIcon/>}
+          >
+              <h3 className= "vertical-timeline-element-title"
+              > Data Analytics  Apprenticeship - COOP Careers
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                San Francisco, CA
+              </h4>
+              <p>
+              Evaluated 300+ records in a Digital Marketing campaign using Excel 
+              pivot tables and VLOOKUPs to assess impressions, conversions, and 
+              sales. Analyzed sales KPIs to identify top and bottom-performing 
+              products, and aggregated campaign data for comparison. Leveraged 
+              Python, Ruby, and Excel formulas for statistical analysis, and 
+              developed interactive dashboards with Tableau for insightful data 
+              visualization.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement 
