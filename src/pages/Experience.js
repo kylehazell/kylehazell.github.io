@@ -10,131 +10,180 @@ function Experience() {
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#3e497a">
-            <VerticalTimelineElement 
-                className="vertical-timeline-element--education" 
+            <VerticalTimelineElement
+                className="vertical-timeline-element--education"
                 date="Aug 2013 - May 2017"
                 iconStyle={{background:"#3e497a",color:"#fff" }}
                 icon={<SchoolIcon/>}
             >
-              <h3 className= "vertical-timeline-element-title"
-              > Gateway High School, San Francisco, California
+              <h3 className="vertical-timeline-element-title">
+                Gateway High School, San Francisco, California
               </h3>
               <p>High School Diploma</p>
             </VerticalTimelineElement>
-            <VerticalTimelineElement 
-                className="vertical-timeline-element--education" 
-                date=" Aug 2017 - May 2022"
+
+            <VerticalTimelineElement
+                className="vertical-timeline-element--education"
+                date="Aug 2017 - May 2022"
                 iconStyle={{background:"#3e497a",color:"#fff" }}
                 icon={<SchoolIcon/>}
             >
-                <h3 className= "vertical-timeline-element-title"
-                > California State University, Sacramento
+                <h3 className="vertical-timeline-element-title">
+                  California State University, Sacramento
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
                   Bachelor's Degree
                 </h4>
                 <p>Computer Science</p>
             </VerticalTimelineElement>
-            <VerticalTimelineElement 
-              className="vertical-timeline-element--work" 
-              date="July 2017 - Aug 2017"
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="Jul 2017 - Aug 2017"
               iconStyle={{background: "#e9d35b",color:"#fff" }}
               icon={<WorkIcon/>}
             >
-              <h3 className= "vertical-timeline-element-title"
-              > Intern - Computer Science Summer Institute
+              <h3 className="vertical-timeline-element-title">
+                Intern — Computer Science Summer Institute (Google)
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-              Mountain View, CA
+                Mountain View, CA
               </h4>
               <p>
-                Facilitated programming fundamentals directly from Google engineers, 
-                Designed and developed professional applications
+                Learned programming fundamentals directly from Google engineers.
+                Designed and developed professional applications.
               </p>
             </VerticalTimelineElement>
-            <VerticalTimelineElement 
-              className="vertical-timeline-element--work" 
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
               date="Jun 2018 - Aug 2018"
               iconStyle={{background: "#e9d35b",color:"#fff" }}
               icon={<WorkIcon/>}
             >
-              <h3 className= "vertical-timeline-element-title"
-              > Intern - Silicon Valley Bank
+              <h3 className="vertical-timeline-element-title">
+                Intern — Silicon Valley Bank
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
                 San Francisco, CA
               </h4>
               <p>
-                  Produced  research on Venture Capitalism, 
-                  Assisted with code on small projects using Python, 
-                  Facilitated program profiles for confidential companies
+                Produced research on Venture Capitalism. Assisted with code on
+                small projects using Python. Facilitated program profiles for
+                confidential companies.
               </p>
             </VerticalTimelineElement>
-            <VerticalTimelineElement 
-              className="vertical-timeline-element--work" 
-              date=" Oct 2019 - Aug 2021"
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="Jun 2019 - Present"
               iconStyle={{background: "#e9d35b",color:"#fff" }}
               icon={<WorkIcon/>}
             >
-              <h3 className= "vertical-timeline-element-title"
-              > College Success Coach - Improve Your Tomorrow
+              <h3 className="vertical-timeline-element-title">
+                Design Trainee — SF Department of Public Works
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                San Francisco, CA
+              </h4>
+              <p>
+                Develop internal websites for city engineers with technical
+                documentation and training. Assist across departments on IT tasks
+                including software and hardware installation. Leverage JavaScript,
+                HTML, SQL, and Google API to build functional web pages. Manage a
+                repository of 1,000+ critical digital and physical documents.
+              </p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="Oct 2019 - Aug 2021"
+              iconStyle={{background: "#e9d35b",color:"#fff" }}
+              icon={<WorkIcon/>}
+            >
+              <h3 className="vertical-timeline-element-title">
+                College Success Coach — Improve Your Tomorrow
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
                 Sacramento, CA
               </h4>
               <p>
-                Provided help and support for minority men attending college. 
-                For example I provided mentorship, schedule brotherhood events, 
-                organized weekly 1 on 1 meetings with up to 10 students a week.
+                Provided mentorship and support for minority men attending college.
+                Organized brotherhood events and held weekly 1-on-1 meetings with
+                up to 10 students per week.
               </p>
             </VerticalTimelineElement>
-            <VerticalTimelineElement 
-              className="vertical-timeline-element--work" 
-              date=" Jul 2023 - Jan 2024"
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="Feb 2023 - Jun 2023"
+              iconStyle={{background:"#3e497a",color:"#fff" }}
+                icon={<SchoolIcon/>}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Data Analyst Fellow — COOP Careers
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Data Analytics Certification
+              </h4>
+              <p>
+                Evaluated 300+ records in a digital marketing campaign using Excel
+                pivot tables and VLOOKUPs to determine impressions, conversions, and
+                calculated fields. Refined SQL proficiency to manage and analyze
+                databases. Analyzed campaign KPIs to identify best and worst product
+                performance. Used Python and Ruby for statistical computing. Built
+                dashboards and data visualizations — stacked bar graphs, line graphs,
+                and pie charts — in Tableau.
+              </p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="Jul 2023 - Jan 2024"
               iconStyle={{background: "#e9d35b",color:"#fff" }}
               icon={<WorkIcon/>}
             >
-              <h3 className= "vertical-timeline-element-title"
-              > Data Engingneer - Tesla
+              <h3 className="vertical-timeline-element-title">
+                Data Engineering Analyst — Tesla (Contract)
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
                 Fremont, CA
               </h4>
               <p>
-              I optimized VBA code for Tesla vehicles, created detailed reports 
-              on homologation testing progress, processed over 100 datasets efficiently, 
-              collaborated on a Python application for automating data processing, 
-              co-led the development of an internal inventory tracking application 
-              using the MERN stack with user authentication and permission roles. 
-              Additionally, I designed efficiency-enhancing tools like SharePoint 
-              and Confluence pages.
-
+                Updated and debugged the VBA codebase to streamline organization of
+                crucial vehicle data including test results, GPS, and firmware details.
+                Built a Python application that automated data processing, reducing
+                turnaround from weeks to minutes across 100+ datasets. Co-led
+                development of an internal MERN stack inventory tracking app with user
+                authentication and permission roles. Designed SharePoint pages and
+                Confluence pages integrated with Jira for test tracking.
               </p>
             </VerticalTimelineElement>
-            <VerticalTimelineElement 
-              className="vertical-timeline-element--work" 
-              date="Jun 2019 - Present"
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="Dec 2024 - Present"
               iconStyle={{background: "#e9d35b",color:"#fff" }}
               icon={<WorkIcon/>}
             >
-              <h3 className= "vertical-timeline-element-title"
-              > Design Trainee - Department of Public Works
+              <h3 className="vertical-timeline-element-title">
+                Technical Support Specialist — SF Ethics Commission
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                San Francisco, CA
+                San Francisco, CA · Hybrid
               </h4>
               <p>
-                
-                I develop internal websites tailored for city engineers, providing 
-                comprehensive technical documentation and training. Additionally, I 
-                assist across departments in various IT tasks, including software and 
-                hardware installation, while leveraging JavaScript, HTML, SQL, and 
-                Google API to build functional web pages. Lastly, I effectively manage 
-                a vast repository of over 1000 critical digital and physical documents 
-                within the internal city file system.
-
+                Provide technical support and compliance assistance for e-filing
+                systems covering campaign finance and lobbying disclosures. Manage
+                support tickets, diagnose filing issues, and collaborate with internal
+                teams on complex technical problems. Develop public datasets and
+                compliance materials. Conduct training sessions and create fact sheets,
+                FAQs, and eLearning modules. Developed Python scripts to audit
+                WordPress pages for missing image alt text, supporting the City's ADA
+                compliance initiatives.
               </p>
             </VerticalTimelineElement>
+
       </VerticalTimeline>
     </div>
   )
