@@ -34,6 +34,22 @@
     color: white;
   }
   
+  .resumeButton {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 10px 24px;
+    background-color: #e9d35b;
+    color: #21325e;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+
+  .resumeButton:hover {
+    background-color: #d4be4a;
+  }
+
   .skills {
     font-size: 35px;
     width: 100%;

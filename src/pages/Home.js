@@ -36,7 +36,10 @@ function Home() {
           <a href="https://github.com/kylehazell/">
             <GithubIcon/>
           </a>
-        </div> 
+        </div>
+        <a href="/resume.pdf" target="_blank" rel="noreferrer" className="resumeButton">
+          View Resume
+        </a> 
      </div>
        {/*<div className='overlay'>
         
