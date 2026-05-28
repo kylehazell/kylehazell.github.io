@@ -1,30 +1,19 @@
 import React from 'react'
-import InstagramIcon from "@mui/icons-material/Instagram";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import "../styles/Footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <div className="socialMedia"> 
-      <a href="https://www.linkedin.com/in/kyle-h-91a886123/">
-        <LinkedInIcon/>
+      <div className="socialMedia">
+        <a href="https://www.linkedin.com/in/kyle-h-91a886123/" target="_blank" rel="noreferrer">
+          <LinkedInIcon/>
         </a>
-        <a href="https://twitter.com/">
-        <TwitterIcon/>
-        </a>
-        <a href="https://www.instagram.com/">
-        <InstagramIcon/>
-        </a>
-        <a href="https://www.facebook.com/">
-        <FacebookIcon/>
+        <a href="https://github.com/kylehazell" target="_blank" rel="noreferrer">
+          <GitHubIcon/>
         </a>
       </div>
-   
-
-    <p> &copy; 2022  Kyle Hazell</p>
-    
+      <p> &copy; 2026 Kyle Hazell</p>
     </div>
   )
 }
