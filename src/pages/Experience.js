@@ -118,7 +118,7 @@ function Experience() {
               className="vertical-timeline-element--work"
               date="Feb 2023 - Jun 2023"
               iconStyle={{background:"#3e497a",color:"#fff" }}
-                icon={<SchoolIcon/>}
+              icon={<SchoolIcon/>}
             >
               <h3 className="vertical-timeline-element-title">
                 Data Analyst Fellow — COOP Careers
