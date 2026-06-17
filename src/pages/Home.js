@@ -24,7 +24,7 @@ function Home() {
         <h2> Hi, my name is Kyle</h2>
         <div className="prompt">
           <p> 
-            I am a software developer with a passion for learning and creating.
+            Solutions Engineer with 5+ years building automation, internal tools, and customer-facing technical systems. Experience spans Python data pipelines at Tesla, full-stack web tools at SF Department of Public Works, and compliance SaaS support at the SF Ethics Commission.
           </p>
           <a href="https://www.linkedin.com/in/kyle-h-91a886123/">
             <LinkedInIcon/>
@@ -51,7 +51,7 @@ function Home() {
             <li className="item">
                 <h2>Front-End</h2>
                 <span>
-                  HTML, CSS, React Native, NPM, Yarn
+                  HTML, CSS, NPM, Yarn
                 </span>
             </li>
             <li className="item">
@@ -60,7 +60,11 @@ function Home() {
             </li>
             <li className="item">
                 <h2>Languages</h2>
-                <span> JavaScript, Java, Python, C, C#, SQL, R</span>
+                <span> JavaScript, Java, Python, SQL</span>
+            </li>
+            <li className="item">
+                <h2>Customer-Facing &amp; Tools</h2>
+                <span> REST APIs, Technical Writing, User Training, Jira, Confluence, Salesforce, Linux</span>
             </li>
         </ol>
     </div>
