@@ -14,7 +14,7 @@ function Experience() {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date="Dec 2024 - Present"
-              iconStyle={{background: "#e9d35b",color:"#fff" }}
+              iconStyle={{background: "#F59E0B",color:"#fff" }}
               icon={<WorkIcon/>}
             >
               <h3 className="vertical-timeline-element-title">
@@ -38,7 +38,7 @@ function Experience() {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date="Jun 2019 - Jul 2024"
-              iconStyle={{background: "#e9d35b",color:"#fff" }}
+              iconStyle={{background: "#F59E0B",color:"#fff" }}
               icon={<WorkIcon/>}
             >
               <h3 className="vertical-timeline-element-title">
@@ -59,7 +59,7 @@ function Experience() {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date="Jul 2023 - Jan 2024"
-              iconStyle={{background: "#e9d35b",color:"#fff" }}
+              iconStyle={{background: "#F59E0B",color:"#fff" }}
               icon={<WorkIcon/>}
             >
               <h3 className="vertical-timeline-element-title">
@@ -105,7 +105,7 @@ function Experience() {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date="Oct 2019 - Aug 2021"
-              iconStyle={{background: "#e9d35b",color:"#fff" }}
+              iconStyle={{background: "#F59E0B",color:"#fff" }}
               icon={<WorkIcon/>}
             >
               <h3 className="vertical-timeline-element-title">
@@ -124,7 +124,7 @@ function Experience() {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date="Jun 2018 - Aug 2018"
-              iconStyle={{background: "#e9d35b",color:"#fff" }}
+              iconStyle={{background: "#F59E0B",color:"#fff" }}
               icon={<WorkIcon/>}
             >
               <h3 className="vertical-timeline-element-title">
@@ -158,7 +158,7 @@ function Experience() {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date="Jul 2017 - Aug 2017"
-              iconStyle={{background: "#e9d35b",color:"#fff" }}
+              iconStyle={{background: "#F59E0B",color:"#fff" }}
               icon={<WorkIcon/>}
             >
               <h3 className="vertical-timeline-element-title">

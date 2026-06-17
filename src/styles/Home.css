@@ -20,7 +20,7 @@
   .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 80px;
-    color: #e9d35b;
+    color: #F59E0B;
     height: 50px;
   }
   
@@ -38,7 +38,7 @@
     display: inline-block;
     margin-top: 16px;
     padding: 10px 24px;
-    background-color: #e9d35b;
+    background-color: #F59E0B;
     color: #21325e;
     font-weight: bold;
     font-size: 16px;
@@ -47,7 +47,7 @@
   }
 
   .resumeButton:hover {
-    background-color: #d4be4a;
+    background-color: #D97706;
   }
 
   .skills {
