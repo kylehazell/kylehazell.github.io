@@ -17,7 +17,14 @@
     color: white;
     text-decoration: none;
     margin: 20px;
-    font-size: 25px;
+    font-family: var(--font-family);
+    font-size: var(--font-h3);
+    font-weight: 500;
+    transition: color 0.15s;
+  }
+
+  .navbar a:hover {
+    color: var(--color-amber);
   }
   
   .toggleButton {
